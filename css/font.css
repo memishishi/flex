@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'ArchyEDT-Bold';
+  src: url(../font/'ArchyEDT-Bold.eot');
+  src: url(../font/'ArchyEDT-Bold.eot?#iefix') format('embedded-opentype'),
+       url(../font/'ArchyEDT-Bold.svg#ArchyEDT-Bold') format('svg'),
+       url(../font/'ArchyEDT-Bold.ttf') format('truetype'),
+       url(../font/'ArchyEDT-Bold.woff') format('woff'),
+       url(../font/'ArchyEDT-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
