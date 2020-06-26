@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<meta charset="utf-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/font.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-	    <title>flex</title>
+		<script src="https://kit.fontawesome.com/33491f7683.js" crossorigin="anonymous"></script>
+		<title>flex2</title>
 	</head>
 	<body>
 	    <div class="header flex container">
@@ -20,105 +22,36 @@
 	            <!-- <img src="image/search.svg" alt="search icon" class="search-icon"> -->
 	        </div>
 	    </div>
-	    <section class="container">
-	    	<dic class="banner-box">
-	    		<div class="banner-img">
-	    			<div class="in-banner">
-	    				<div><h3>სტატიის დასახელება შეიძლება ასეთი სახით დაიწეროს</h3></div>
-	    				<div><p>ხოლო სტატიის მოკლე აღწერა რომელიც სრულად არ იქნება ნაჩვენები აქ</p></div>
-	    				<div><button>read more</button> </div>
-	    			</div>
-	    		</div>
-	    	</dic>
-	    </section>
-	    <section class="container">
-	   	 	<div>
-	        	<h2>პოპულარული სტატიები</h2>
-	        </div>
-		        <div class="secondsection-div flex">
-			        <div class="second-section">
-			            <div class="topic">
-			                <div class="image1 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			         <div class="second-section flex">
-			            <div class="topic">
-			                <div class="image2 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			         <div class="second-section flex">
-			            <div class="topic">
-			                <div class="image3 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-		        </div>
+	    <section>
+			<div class="container">
+					<img class="image" src="img/map.jpg" alt="image">
+			</div>
 		</section>
-	    <div class="load flex">
-	        <button class="load-more">Load more</button>
-	    </div>
-	    <section class="container third-section">
-	   	 	<div>
-	        	<h2>ბოლოს დამატებული</h2>
-	        </div>
-		        <div class="secondsection-div flex">
-			        <div class="second-section">
-			            <div class="topic">
-			                <div class="image4 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			         <div class="second-section flex">
-			            <div class="topic">
-			                <div class="image5 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-			         <div class="second-section flex">
-			            <div class="topic">
-			                <div class="image6 image"></div>
-			                <div class="text">
-			                    <h3>სტატიის სათაური</h3>
-			                  	<p>ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ სტატიის მოკლე აღწერას </p>
-			                    <div class="r-more flex">
-			                    <span>more</span>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
-		        </div>
+		</section>
+		<section>
+			<div class="container">
+			    <form class="form-wrap">
+			    	<div class="forms">
+				        <label for="fname">Name</label>
+				        <input type="text" name="Name" id="fname" placeholder="....type your name">
+				    </div>
+				    <div class="forms">
+				        <label for="mail">E-mail</label>
+			 	        <input type="email" name="Name" id="mail" placeholder="....type your e-mail">
+			 	    </div>
+			 	    <div class="forms">
+				        <label for="sub">Subject</label>
+				        <input type="text" name="Name" id="sub" placeholder="....type the mail subject">
+				    </div>
+				    <div class="forms">
+				    	<label for="massage">Massage</label>
+				    	<textarea class="message-textarea" id="massage"></textarea>
+				    </div>
+				    <div class="forms">
+				    <button class="send uppercase">Send</button>
+                    </div>
+			    </form>
+		    </div>
 		</section>
 		<footer>
 		    <div class="footer-div">
